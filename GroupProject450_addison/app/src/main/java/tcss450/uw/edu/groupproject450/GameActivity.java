@@ -128,11 +128,11 @@ public class GameActivity extends Activity {
 
         @Override
         public void onReceive(Context context, Intent intent) {
-            Bundle b = new Bundle();
-            b.putInt("Score", mGameView.getScore());
+            mGameView.pause();
+//            tv.setText(String.valueOf(mGameView.getScore()));
+//            FragmentTransaction ft = getFragmentManager().beginTransaction();
+//            gameOver.show(ft, "GameOver");
 
-            FragmentTransaction ft = getFragmentManager().beginTransaction();
-            gameOver.show(ft, "GameOver");
         }
     }
 }

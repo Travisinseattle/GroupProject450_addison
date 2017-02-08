@@ -24,6 +24,8 @@ class GameView extends SurfaceView implements Runnable {
     /****************************************Constants*********************************************/
     private static int CENTIPEDE_DELAY = 3;
 
+    private static final float FONT_SIZE = 100;
+
     /*****************************************Fields***********************************************/
 
 
@@ -235,6 +237,23 @@ class GameView extends SurfaceView implements Runnable {
                 mCanvas.drawText("Centipede Segments: " + mCentipede.getSize(), 50, 180, mPaint);
             }
 
+            if (mGameState) {
+                String go = "GAME OVER";
+                String score = "Score: " + mScore;
+                String back = "Press Back To Try Again";
+                mPaint.setTextSize(FONT_SIZE);
+                mPaint.setColor(Color.GREEN);
+                float goWidth = mPaint.measureText(go);
+                float scoreWidth = mPaint.measureText(score);
+                float backWidth = mPaint.measureText(back);
+                mCanvas.drawText(go, (mScreenSizeX / 2) - (goWidth / 2),
+                        mScreenSizeY / 2 -(FONT_SIZE), mPaint);
+                mCanvas.drawText(score, (mScreenSizeX / 2) - (scoreWidth / 2),
+                        mScreenSizeY / 2, mPaint);
+                mCanvas.drawText(back, (mScreenSizeX / 2) - (backWidth / 2),
+                        mScreenSizeY / 2 +(FONT_SIZE), mPaint);
+            }
+
             //Draw the mShip.
             mCanvas.drawBitmap(mPlayerShip.getBitmap(),
                     mPlayerShip.getX() - (mPlayerShip.getLength() / 2),
@@ -336,8 +355,8 @@ class GameView extends SurfaceView implements Runnable {
     public void update() {
 
         if (mCentipede.getSize() < 1) {
+            mGameState = true;
            GameOver();
-            pause();
         } else {
 
             /**

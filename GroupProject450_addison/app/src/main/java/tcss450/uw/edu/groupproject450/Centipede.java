@@ -75,7 +75,7 @@ class Centipede {
 
     private void createCentipede(Bitmap bitmap) {
         int k = 0;
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < 15; i++) {
             if (i == 0) {
                 addNode(mCentipedeHead,mScreenX/STARTING_X, -(mScreenY/HEIGHT_DIVISOR)-k, mScreenX, mScreenY);
             } else {
