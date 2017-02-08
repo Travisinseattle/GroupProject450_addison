@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WebServiceSandbox</string>
+    <string name="type">Message From WebService</string>
+    <string name="type_something">Type Something</string>
+    <string name="static_button">Static</string>
+    <string name="get_button">Get</string>
+    <string name="post_button">Post</string>
+</resources>

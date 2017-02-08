@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Widgets Lab</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="static_linked_button_text">Click Me!</string>
+    <string name="dynamic_linked_button_text">No, Click Me!</string>
+    <string name="static_toast_text">Statically Connected…</string>
+    <string name="dynamic_toast_text">Dynamically Connected…</string>
+    <string name="text_view_ex1">Hello All</string>
+    <string name="text_view_ex_phone">253 123 4567</string>
+    <string name="text_view_ex_email">myunetid@uw.edu</string>
+    <string name="edit_view_hint">Type something!</string>
+    <string name="auto_complete_hint">Choose a color</string>
+    <string name="radioYes">Yes</string>
+    <string name="radioNo">No</string>
+    <string name="toppingMeat">meat</string>
+    <string name="toppingCheese">cheese</string>
+    <string name="toppingVegitables">vegetables</string>
+    <string name="toppingSauce">sauce</string>
+    <string name="select_button">Selected Items</string>
+    <string name="check_cheese"> Cheese</string>
+    <string name="check_meat"> Meat</string>
+    <string name="check_sauce"> Sauce</string>
+    <string name="check_vegtables"> Vegtables</string>
+    <string name="sb_message">The following Items have been checked:</string>
+
+    <string-array name="list_view_labels">
+        <item>Button Example</item>
+        <item>TextView Example</item>
+        <item>EditText Example</item>
+        <item>AutoCompleteText Example</item>
+        <item>Spinner Example</item>
+        <item>Check Box/Radio Button Example</item>
+    </string-array>
+
+    <string-array name="auto_complete_colors">
+        <item>red</item>
+        <item>green</item>
+        <item>blue</item>
+        <item>purple</item>
+        <item>orange</item>
+        <item>black</item>
+        <item>yellow</item>
+        <item>cyan</item>
+        <item>magenta</item>
+    </string-array>
+</resources>

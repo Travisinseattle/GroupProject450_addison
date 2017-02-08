@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_display_text"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/huskies"
+    tools:context="tcss450.uw.edu.aboutme.DisplayTextActivity">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_font_size"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/displayText"
+        android:layout_weight="1" />
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="group7.tcss450.uw.edu.webservicesandbox.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/header"
+        android:text="@string/type"
+        android:textSize="@dimen/text_view_size"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputEditText"
+        android:hint="@string/type_something"
+        android:textSize="@dimen/text_view_size"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_static"
+        android:text="@string/static_button"
+        android:layout_gravity="center"
+        android:onClick="ButtonClick"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_get"
+        android:text="@string/get_button"
+        android:layout_gravity="center"
+        android:onClick="ButtonClick"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_post"
+        android:text="@string/post_button"
+        android:layout_gravity="center"
+        android:onClick="ButtonClick"/>
+
+</LinearLayout>

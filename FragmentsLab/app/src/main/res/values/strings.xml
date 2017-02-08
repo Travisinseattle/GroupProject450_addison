@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FragmentsLab</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="red_fragment_button">Red Fragment</string>
+    <string name="green_fragment_button">Green Fragment</string>
+    <string name="blue_fragment_button">Blue Fragment</string>
+    <string name="purple_fragment_button">UW Purple Fragment</string>
+    <string name="gold_fragment_button">UW Gold Fragment</string>
+    <string name="purple_value">#4B2E83</string>
+    <string name="gold_value">#4B2E83</string>
+
+</resources>

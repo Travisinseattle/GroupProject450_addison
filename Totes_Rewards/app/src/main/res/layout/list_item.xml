@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/colorPrimaryLight"
+    >
+
+    <!-- Store Label -->
+    <TextView
+        android:id="@+id/store"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:paddingTop="6dip"
+        android:paddingLeft="6dip"
+        android:paddingRight="6dip"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <View
+        android:layout_width="3dip"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="1dip"
+        android:layout_marginRight="1dip"
+        android:background="?android:attr/dividerHorizontal"
+        android:layout_gravity="center" />
+
+    <!-- Points Label -->
+    <TextView
+        android:id="@+id/points"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:paddingTop="6dip"
+        android:paddingLeft="6dip"
+        android:paddingRight="6dip"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"/>
+
+</LinearLayout>

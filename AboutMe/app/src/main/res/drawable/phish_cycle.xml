@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:id="@+id/selected" android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/phish_1" android:duration="1000" />
+    <item android:drawable="@drawable/phish_2" android:duration="1000" />
+    <item android:drawable="@drawable/phish_3" android:duration="1000" />
+    <item android:drawable="@drawable/phish_4" android:duration="1000" />
+    <item android:drawable="@drawable/phish_5" android:duration="1000" />
+    <item android:drawable="@drawable/phish_6" android:duration="1000" />
+    <item android:drawable="@drawable/phish_7" android:duration="1000" />
+    <item android:drawable="@drawable/phish_8" android:duration="1000" />
+    <item android:drawable="@drawable/phish_9" android:duration="1000" />
+    <item android:drawable="@drawable/phish_10" android:duration="1000" />
+</animation-list>

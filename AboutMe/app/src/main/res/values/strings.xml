@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">UW    About Me</string>
+    <string name="textStr">Text</string>
+    <string name="imageStr">Image</string>
+    <string name="webStr">Web</string>
+    <string name="toastStr">Toast</string>
+    <string name="dialogStr">Dialog</string>
+    <string name="toastMessage">Cheers!!! (Click it again)</string>
+    <string name="toBad">To bad, I am going to tell it anyway!</string>
+    <string name="tellsJoke_1">Do you want to hear a Joke?</string>
+    <string name="tellsJoke_2">Why do Java programmers have to wear glasses?</string>
+    <string name="tellsJoke_3">Because they don\'t C#!</string>
+    <string name="sureStr">Sure!</string>
+    <string name="nopeStr">Nope!</string>
+    <string name="whyStr">Why?</string>
+    <string name="sighStr">Sigh...</string>
+
+    <string-array name="greetings">
+        <item>Kippis!!! (Finnish)</item>
+        <item>Živjeli!!! (Bosnian)</item>
+        <item>Skål!!! (Swedish)</item>
+        <item>Iechyd da!!! (Welsh)</item>
+        <item>Chok dee!!! (Thai)</item>
+        <item>Salute!!! (Italian)</item>
+        <item>Greetings!!! (English)</item>
+    </string-array>
+
+</resources>
